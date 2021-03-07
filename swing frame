@@ -1,0 +1,16 @@
+// to create frame by using jframe class object
+ import javax.swing.*;
+ 
+ class FrameDemo 
+ {	    
+	   public static void main(String args[])
+	   {
+		    JFrame ob=new JFrame("this is my frame");
+			
+			   ob.setSize(250,300);
+			   ob.setVisible(true);
+	      	   ob.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	   }
+ }
+ 
+	   
